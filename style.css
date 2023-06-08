@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(10, 4, 4);
+}
+h3{
+    color: aliceblue;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+nav{
+    align-items: center;
+    text-align: center;
+    position: top;
+
+}
+
+nav li{
+    display: inline-block;
+    background-color: rgb(139, 168, 43);
+    padding:  10px 20px 10px 20px;
+    border-radius: 10px;
+    
+}
+nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: bold;
+    position: sticky;
+}
+nav .container{
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  height: 10px;
+
+
+}
+nav div a{  
+    font-size: large;
+    color: rgb(17, 4, 4);
+    border-radius: 10px;
+    background-color: rgb(218, 200, 217);
+}
+div a{
+    text-decoration: none;
+    padding: 15px 15px 10px 15px ;
+}
+.card {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px ;
+    background-color: rgb(243, 176, 95);
+    
+}
+.container h1{
+  text-align:left;
+  height: 10px;
+}
+.card:hover {
+      background-color: rgb(103, 193, 133);
+}
+nav a:hover{
+  color: rgb(11, 9, 9);
+}
+footer{
+  background-color: rgb(210, 232, 203);
+}
+footer .col{
+  display: inline-block;
+  padding-left: 100px;
+  
+}
+.container{
+  min-height: 75;
+}
+.bottom{
+  height: 100px;
+  background-color: rgb(182, 213, 220);
+  bottom: 0;
+  color: rgb(25, 17, 25);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.icons{
+  margin-top: 25px; 
+}
+.icons i{
+  cursor: pointer;
+}
+
+#myProgressBar{
+  width: 80vw; 
+  cursor: pointer;
+}
+
+.songItemContainer{
+  margin-top: 74px;
+}
+
+.songItem{
+  height: 50px;
+  width: 50%;
+  display: flex;
+  background-color: rgb(219, 123, 123);
+  color: rgb(15, 17, 17);
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.songItem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+
+.timestamp{
+  margin: 0 23px;
+}
+
+.timestamp i{
+  cursor: pointer;
+}
+
+.songInfo{
+  position: absolute;
+  left: 80px;
+  margin-top: 50px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: rgb(171, 44, 84);
+  }
+}
+
+
+
